@@ -19,6 +19,9 @@
       span {
         i {
           font-size: 6rem;
+          @include custom.media-breakpoint-down(xl) {
+            font-size: 4.5rem;
+          }
           color: custom.$secondary;
         }
       }
@@ -32,6 +35,10 @@
   left: 0;
   width: 6rem;
   height: 6rem;
+  @include custom.media-breakpoint-down(xl) {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
   border: 0.5rem solid custom.$white;
   border-radius: 50%;
   animation: pulse-border 1.5s linear infinite;

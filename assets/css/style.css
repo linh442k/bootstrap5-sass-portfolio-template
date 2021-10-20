@@ -11224,6 +11224,11 @@ textarea.form-control-lg {
   font-size: 6rem;
   color: #d122e3;
 }
+@media (max-width: 1199.98px) {
+  .intros .video-box a span i {
+    font-size: 4.5rem;
+  }
+}
 
 .border-animation {
   position: absolute;
@@ -11234,6 +11239,12 @@ textarea.form-control-lg {
   border: 0.5rem solid #fff;
   border-radius: 50%;
   animation: pulse-border 1.5s linear infinite;
+}
+@media (max-width: 1199.98px) {
+  .border-animation {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
 }
 .border-animation--border-1 {
   animation-delay: 1s;
