@@ -10,4 +10,9 @@
       font-weight: 600;
     }
   }
+  .btn-rounded {
+    @include custom.media-breakpoint-down(xl) {
+      display: none;
+    }
+  }
 }
